@@ -1,0 +1,16 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgba(0, 0, 0, 0);
+    --color-grey-light: #AEAEAE;
+    --color-green-light: rgb(195, 299, 173);
+    --color-green-melon: rgb(152, 219, 173);
+    --color-pink-light: rgb(244, 187, 188);
+    --color-brown-light: rgb(237, 217, 135);
+    --color-brown-melon: rgb(241, 225, 165);
+    --font-size-text-cards: 1rem;
+    --font-size-text-home: 1.3em;
+    --font-size-card-plans: 1.5em;
+    --font-size-card-plans-title: 1em;
+    --font-size-text-footer: 0.9rem;
+
+}
