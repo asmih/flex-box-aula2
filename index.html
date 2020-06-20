@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,139 @@
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <title>FLEX BOX</title>
-
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">
+                <p class="title-nav">Courses </p>
+                <figure>
+                    <img src="img/book.svg" alt="icone de um livro digital">
+                </figure>
+            </div>
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#cursos">Cursos</a></li>
+                <li> <a href="#precos">Preços</a></li>
+                <li> <a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <header class="home-text">
+                <h1>Seu futuro é aqui</h1>
+                <p>O melhor site para começar sua carreira como dev! Além de ter professores super reconhecidos na área,
+                    temos diversas videos aulas e exercícios</p>
+            </header>
+            <figure>
+                <img src="img/phone.svg" alt="Ilustração de um homem saindo de dentro de um celular">
+            </figure>
+        </section>
+
+        <section class="cursos" id="cursos">
+            <header class="cursos-text">
+                <h2>Todos os cursos</h2>
+            </header>
+            <div class="cursos-linha-de-cima">
+                <div class="card">
+                    <i>
+                        <img src="img/html.svg" alt="Ícone do HTML">
+                    </i>
+                    <p>Cursos para você aprender tudo sobre HTML</p>
+                </div>
+                <div class="card">
+                    <i>
+                        <img src="img/javascript.svg" alt="Ícone do Javascript">
+                    </i>
+                    <p>Cursos para você aprender tudo sobre Javascript</p>
+                </div>
+                <div class="card">
+                    <i>
+                        <img src="img/css.svg" alt="Ícone do CSS">
+                    </i>
+                    <p>Cursos para você aprender tudo sobre CSS</p>
+                </div>
+            </div>
+            <div class="cursos-linha-debaixo">
+                <div class="card">
+                    <i>
+                        <img src="img/games.svg" alt="Ícone de um controle de um video game">
+                    </i>
+                    <p>Cursos para você aprender tudo sobre programação para games</p>
+                </div>
+                <div class="card">
+                    <i>
+                        <img src="img/photoshop.svg" alt="Ícone do Photoshop">
+
+                    </i>
+                    <p>Cursos para você aprender tudo sobre Photoshop</p>
+                </div>
+                <div class="card">
+                    <i>
+                        <img src="img/adobe.svg" alt="Ícone do Adobe">
+                    </i>
+                    <p>Cursos para você aprender tudo sobre os softwares da Adobe</p>
+                </div>
+            </div>
+        </section>
+        <section class="planos" id="planos">
+            <header>
+                <h2>Planos</h2>
+            </header>
+            <div class="planos-precos">
+                <div class="card-plano plano1">
+                    <h3>Plano Mensal</h3>
+                    <p class="plano-font-preco">R$ 70,00</p>
+                    <div class="plano-text">
+                        <p class="plano-text-vantagens">Acesso a todos os conteúdos do site</p>
+                        <p class="plano-text-vantagens">Acesso durante os meses pagos</p>
+                        <p class="plano-text-vantagens">Acesso a exercícios</p>
+                    </div>
+                </div>
+                <div class="planos-precos">
+                    <div class="card-plano plano2">
+                        <h3>Plano Anual</h3>
+                        <p class="plano-font-preco">R$ 840,00</p>
+                        <div class="plano-text">
+                            <p class="plano-text-vantagens">Acesso a todos os conteúdos do site</p>
+                            <p class="plano-text-vantagens">Acesso vitalício</p>
+                            <p class="plano-text-vantagens">Correção de projetos</p>
+                        </div>
+                    </div>
+                    <div class="planos-precos">
+                        <div class="card-plano plano3">
+                            <h3>Plano Empresa</h3>
+                            <p class="plano-font-preco">R$ 2.000,00</p>
+                            <div class="plano-text">
+                                <p class="plano-text-vantagens">Acesso a todos os conteúdos do site</p>
+                                <p class="plano-text-vantagens">Acesso vitalício</p>
+                                <p class="plano-text-vantagens">Treinamento Individual</p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="email" id="contato">
+            <header>
+                <h4>Receba novidades, sem spam!</h4>
+            </header>
+            <figure class="email-computador">
+                <img src="img/computer.svg" alt="figura de computador">
+            </figure>
+            <form action="submit" method="POST">
+                <input type="email" placeholder="Coloque seu e-mail">
+                <button type="button submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <strong>
+                <h4>Courses ©</h4>
+            </strong>
+            <p>2020 " - Todos os direitos resrrvados"</p>
+        </footer>
+    </main>
 </body>
+
 </html>
